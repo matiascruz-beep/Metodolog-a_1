@@ -8,7 +8,7 @@ namespace Ejercicio__
 	{
 		public static void Main(string[] args)
 		{
-			Comparable n1 = new Numero(10);
+			/*Comparable n1 = new Numero(10);
 			Comparable n2 = new Numero(2);
 			Comparable n3 = new Numero(20);
 			
@@ -28,12 +28,27 @@ namespace Ejercicio__
 			
 			Console.WriteLine(p.maximo());
 			
-			Console.WriteLine(n1.sosigual(n2));
+			Console.WriteLine(n1.sosigual(n2));*/
+			
+			//Ejercicio 7
+			
+			pila p = new pila();
+			
+			cola c = new cola();
+			
+			llenar(p);
+			llenar(c);
+			
+			informar(p);
+			informar(c);
+			
+			
+			
 			Console.ReadKey();
 		}
 		
 		//Ejercicio 5
-		public void llenar(Coleccionable c){
+		public static void llenar(Coleccionable c){
 			
 			Random rnd = new Random();
 			
@@ -49,7 +64,7 @@ namespace Ejercicio__
 		
 		//Ejercicio 6
 		
-		public void informar(Coleccionable c){
+		public static void informar(Coleccionable c){
 			
 			double cantidad_elementos = c.cuantos();
 			
