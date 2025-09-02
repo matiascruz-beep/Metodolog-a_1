@@ -49,6 +49,7 @@
     <Compile Include="Class2.cs" />
     <Compile Include="cola.cs" />
     <Compile Include="ColeccionMultiple.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="pila.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

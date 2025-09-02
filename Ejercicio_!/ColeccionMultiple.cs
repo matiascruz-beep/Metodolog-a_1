@@ -7,8 +7,8 @@ namespace Ejercicio__
 	
 	public class ColeccionMultiple : Coleccionable
 	{
-		pila p;
-		cola c;
+		private pila p;
+		private cola c;
 		public ColeccionMultiple(pila pil,cola col)
 		{
 			this.p = pil;
