@@ -13,7 +13,7 @@ namespace Ejercicio__
 	/// <summary>
 	/// Description of Persona.
 	/// </summary>
-	public class Persona
+	public abstract class Persona
 	{
 		private string nombre;
 		private double dni;
@@ -24,6 +24,11 @@ namespace Ejercicio__
 			this.dni = d;
 		}
 		
-		public 
+		public string Nombre{get;set;}
+		
+		public double Dni{get;set;}
+		
+		
+		
 	}
 }
