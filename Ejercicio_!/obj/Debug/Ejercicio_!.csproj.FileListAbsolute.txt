@@ -1,5 +1,5 @@
-C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\bin\Debug\Ejercicio_!.exe
-C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\bin\Debug\Ejercicio_!.pdb
 C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\obj\Debug\Ejercicio_!.csprojResolveAssemblyReference.cache
-C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\obj\Debug\Ejercicio_!.exe
-C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\obj\Debug\Ejercicio_!.pdb
+C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\bin\Debug\Ejercicio_1.exe
+C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\bin\Debug\Ejercicio_1.pdb
+C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\obj\Debug\Ejercicio_1.exe
+C:\Users\mati1\Documents\Meotodologia 1\Ejercicio_!\Ejercicio_!\obj\Debug\Ejercicio_1.pdb
