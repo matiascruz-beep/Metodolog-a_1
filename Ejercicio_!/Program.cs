@@ -55,6 +55,26 @@ namespace Ejercicio__
 			
 			Console.WriteLine("Cantidad de elementos del coleecionable: {0}",cantidad_elementos);
 			
+			Comparable minimo = c.minimo();
+			
+			Console.WriteLine("El minimo es: {0}", minimo);
+			
+			Comparable maximo = c.maximo();
+			
+			Console.WriteLine("El maximo es: {0}", maximo);
+			
+			Console.Write("Escriba un numero: ");
+			
+			int num_elegido = int.Parse(Console.ReadLine());
+			
+			Comparable col = new Numero(num_elegido);
+			
+			if(c.contiene(col)){
+				
+				Console.WriteLine("El coleccionable leido esta en la colección");
+			}
+			else{Console.WriteLine("El coleccionable leido no esta en la colección");}
+			
 		}
 	}
 }
