@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_!", "Ejercicio_!\Ejercicio_!.csproj", "{734F0486-1E9B-45DD-8125-3A81E4CCE4F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_1", "Ejercicio_!\Ejercicio_1.csproj", "{734F0486-1E9B-45DD-8125-3A81E4CCE4F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

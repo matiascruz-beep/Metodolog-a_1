@@ -42,6 +42,7 @@ namespace Ejercicio__
 			informar(p);
 			informar(c);
 			
+			Console.WriteLine();
 			
 			
 			Console.ReadKey();
@@ -91,5 +92,8 @@ namespace Ejercicio__
 			else{Console.WriteLine("El coleccionable leido no esta en la colección");}
 			
 		}
+		
+		//Ejercicio 8
+		
 	}
 }
