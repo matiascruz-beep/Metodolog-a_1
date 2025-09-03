@@ -107,5 +107,23 @@ namespace Ejercicio__
 			
 		}
 		
+		//Ejercicio 13
+		
+		public static void llenarAlumnos(Coleccionable c){
+			
+			string[] nombres = { "Ana", "Luis", "María", "Pedro", "Lucía", "Carlos", "Sofía", "Mateo", "Valentina", "Julián","Matias","Juan"};
+			Random rnd = new Random();
+			for (int i=0 ; i<19 ; i++){
+				
+				string nombre = nombres[rnd.Next(nombres.Length)];
+        		int dni = rnd.Next(10000000, 50000000);       // DNI al azar
+        		int legajo = rnd.Next(1000, 9999);           // Legajo al azar
+       			double promedio = Math.Round(rnd.NextDouble() * 10, 2); // Promedio entre 0 y 10 con decimales
+
+       			Alumno a = new Alumno(nombre, dni, legajo, promedio);
+       			c.agregar(a);
+			}
+		}
+		
 	}
 }
