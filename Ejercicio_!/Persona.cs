@@ -1,34 +1,39 @@
-﻿/*
- * Created by SharpDevelop.
- * User: mati1
- * Date: 2/9/2025
- * Time: 20:13
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿//Ejercicio 11
+
 using System;
 
 namespace Ejercicio__
 {
-	/// <summary>
-	/// Description of Persona.
-	/// </summary>
-	public abstract class Persona
+	public abstract class Persona : Comparable
 	{
-		private string nombre;
-		private double dni;
-		
-		public Persona(string n , double d)
-		{
-			this.nombre = n;
-			this.dni = d;
-		}
-		
 		public string Nombre{get;set;}
 		
 		public double Dni{get;set;}
 		
+		public Persona(string n , double d)
+		{
+			this.Nombre = n;
+			this.Dni = d;
+		}
 		
+		
+		
+		public abstract  bool sosigual(Comparable pe);/*{
+			Persona per = (Persona)pe;
+			return (this.dni == per.Dni);
+		}*/
+		
+		public abstract  bool sosmayor(Comparable pe);/*{
+			
+			Persona per = (Persona)pe;
+			return (this.dni > per.Dni);
+		}*/
+		
+		public abstract  bool sosmenor(Comparable pe);/*{
+			
+			Persona per = (Persona)pe;
+			return (this.dni < per.Dni);
+		}*/
 		
 	}
 }

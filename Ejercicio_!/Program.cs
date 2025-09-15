@@ -44,7 +44,7 @@ namespace Ejercicio__
 			
 			//Ejercicio 9
 			
-			pila p = new pila();
+			/*pila p = new pila();
 			cola c = new cola();
 			ColeccionMultiple multiple = new ColeccionMultiple(p,c);
 			
@@ -55,8 +55,17 @@ namespace Ejercicio__
 			informar(c);
 			
 			informar(multiple);
+			*/
 			
-			Console.WriteLine();
+			//Ejercicio 14
+			pila p = new pila();
+			cola c = new cola();
+			ColeccionMultiple multiple = new ColeccionMultiple(p,c);
+			
+			llenarAlumnos(p);
+			llenarAlumnos(c);
+			
+			informar(multiple);
 			
 			
 			Console.ReadKey();
