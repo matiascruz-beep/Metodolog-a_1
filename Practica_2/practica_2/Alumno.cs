@@ -53,10 +53,10 @@ namespace practica_2
             return this.Legajo < al.Legajo;
         }
         
-        	 public override string ToString()
-{
+         public override string ToString()
+		{
         	return string.Format("Nombre: {0}, DNI: {1}, Legajo: {2}, Promedio: {3}", Nombre, Dni, Legajo, Promedio);
-}
+		}
 	}
 	
 	public class PorLegajo : comparoAlumno{

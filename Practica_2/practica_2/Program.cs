@@ -57,6 +57,23 @@ namespace practica_2
 				
 			}
 		}
+		
+		public static void cambiarEstrategia(Coleccionable c, comparoAlumno comparo){
+			
+			Iterable iter = (Iterable)c;
+			
+			Iterador it = iter.crearIterador();
+			
+			it.primero();
+			while(!it.fin()){
+				Alumno al = (Alumno)it.actual();
+				al.cambiarComparador(comparo);
+				it.siguiente();
+				
+			}
+			
+			
+		}
 }
 	
 }
