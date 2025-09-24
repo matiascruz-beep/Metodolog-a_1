@@ -10,7 +10,7 @@ namespace practica_2
 	int comparar(Alumno a1, Alumno a2);
 	}
 	
-	public class Alumno
+	public class Alumno : Comparable
 	{
 		public string Nombre{get;set;}
 		public double Dni{get;set;}
@@ -34,7 +34,24 @@ namespace practica_2
 			
 			comparador = nuevoComp;
 		}
+		
+		public bool sosigual(Comparable pe)
+        {
+            Alumno al = (Alumno)pe;
+            return this.Legajo == al.Legajo;
+        }
 
+        public bool sosmayor(Comparable pe)
+        {
+            Alumno al = (Alumno)pe;
+            return this.Legajo > al.Legajo;
+        }
+
+        public bool sosmenor(Comparable pe)
+        {
+            Alumno al = (Alumno)pe;
+            return this.Legajo < al.Legajo;
+        }
 	}
 	
 	public class PorLegajo : comparoAlumno{
@@ -72,6 +89,10 @@ namespace practica_2
 			return a1.Nombre.CompareTo(a1.Nombre);
 		}
 	}
+	
+	
+	
+	
 	
 	
 	

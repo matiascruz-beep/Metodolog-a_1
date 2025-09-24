@@ -13,10 +13,10 @@ namespace practica_2
 	/// <summary>
 	/// Description of Iterador.
 	/// </summary>
-	public class Iterador
-	{
-		public Iterador()
-		{
-		}
+	public interface Iterador{
+		void primero();
+		void siguiente();
+		bool fin();
+		Comparable actual();
 	}
 }

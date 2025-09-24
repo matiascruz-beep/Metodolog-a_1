@@ -13,7 +13,7 @@ namespace Ejercicio__
 		{
 			this.Legajo = l;
 			this.Promedio = p;
-		}
+		}	
 		
 		
 		

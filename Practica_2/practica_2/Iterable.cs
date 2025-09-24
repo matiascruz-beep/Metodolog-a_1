@@ -13,10 +13,11 @@ namespace practica_2
 	/// <summary>
 	/// Description of Iterable.
 	/// </summary>
-	public class Iterable
+	/// 
+	
+	
+	public interface Iterable
 	{
-		public Iterable()
-		{
-		}
+		Iterador crearIterador();
 	}
 }

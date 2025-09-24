@@ -48,7 +48,13 @@
     <Compile Include="Alumno.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="Cola.cs" />
+    <Compile Include="Conjunto.cs" />
+    <Compile Include="Iterable.cs" />
+    <Compile Include="Iterador.cs" />
+    <Compile Include="IteradorListas.cs" />
     <Compile Include="Persona.cs" />
+    <Compile Include="Pila.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
