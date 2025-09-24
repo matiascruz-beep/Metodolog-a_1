@@ -15,10 +15,16 @@ namespace practica_2
 	{
 		public static void Main(string[] args)
 		{
-			pila p = new pila();
-			cola c = new cola();
-			llenarAlumnos(p);
-			llenarAlumnos(c);	
+			pila pila = new pila();
+			cola cola = new cola();
+			Conjunto conjunto = new Conjunto();
+			llenarAlumnos(pila);
+			llenarAlumnos(cola);
+			llenarAlumnos(conjunto);
+			imprimirElementos(pila);
+			imprimirElementos(cola);
+			imprimirElementos(conjunto);
+				
 			Console.ReadKey(true);
 	}		
 		//Ejercicio 2
@@ -39,7 +45,7 @@ namespace practica_2
 			}
 		}
 		
-		public void imprimirElementos(Coleccionable c){ 
+		static void imprimirElementos(Coleccionable c){ 
 			
 			Iterable iter = (Iterable)c;
 			
