@@ -58,6 +58,7 @@ namespace Ejercicio__
 			*/
 			
 			//Ejercicio 14
+			
 			pila p = new pila();
 			cola c = new cola();
 			ColeccionMultiple multiple = new ColeccionMultiple(p,c);

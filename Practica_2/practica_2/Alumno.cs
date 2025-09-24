@@ -52,6 +52,11 @@ namespace practica_2
             Alumno al = (Alumno)pe;
             return this.Legajo < al.Legajo;
         }
+        
+        	 public override string ToString()
+{
+        	return string.Format("Nombre: {0}, DNI: {1}, Legajo: {2}, Promedio: {3}", Nombre, Dni, Legajo, Promedio);
+}
 	}
 	
 	public class PorLegajo : comparoAlumno{
@@ -92,7 +97,7 @@ namespace practica_2
 	
 	
 	
-	
+
 	
 	
 	

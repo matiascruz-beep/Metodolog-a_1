@@ -45,7 +45,7 @@ namespace practica_2
 			}
 		}
 		
-		static void imprimirElementos(Coleccionable c){ 
+		public static void imprimirElementos(Coleccionable c){ 
 			
 			Iterable iter = (Iterable)c;
 			

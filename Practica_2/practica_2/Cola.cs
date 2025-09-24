@@ -14,7 +14,7 @@ namespace practica_2
 	// Enqueue(T item) → agrega un elemento al final de la cola (FIFO: primero en entrar, primero en salir).
 	// Dequeue() → quita y devuelve el primer elemento de la cola (el que estaba esperando más tiempo).
 	
-	public class cola : Coleccionable
+	public class cola : Coleccionable, Iterable
 	{
 		private Queue<Comparable> elementos;
 		
