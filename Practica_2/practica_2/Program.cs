@@ -16,14 +16,24 @@ namespace practica_2
 		public static void Main(string[] args)
 		{
 			pila pila = new pila();
-			cola cola = new cola();
-			Conjunto conjunto = new Conjunto();
 			llenarAlumnos(pila);
+			cambiarEstrategia(pila,new PorNombre());
+			informar(pila);
+			cambiarEstrategia(pila,new PorLegajo());
+			informar(pila);
+			cambiarEstrategia(pila,new PorPromedio());
+			informar(pila);
+			cambiarEstrategia(pila,new  PorDni());
+			informar(pila);
+			
+			/*cola cola = new cola();
+			Conjunto conjunto = new Conjunto();
+			
 			llenarAlumnos(cola);
 			llenarAlumnos(conjunto);
 			imprimirElementos(pila);
 			imprimirElementos(cola);
-			imprimirElementos(conjunto);
+			imprimirElementos(conjunto);*/
 				
 			Console.ReadKey(true);
 	}		
@@ -58,6 +68,7 @@ namespace practica_2
 			}
 		}
 		
+		//Ejercicio 8 
 		public static void cambiarEstrategia(Coleccionable c, comparoAlumno comparo){
 			
 			Iterable iter = (Iterable)c;
@@ -69,9 +80,34 @@ namespace practica_2
 				Alumno al = (Alumno)it.actual();
 				al.cambiarComparador(comparo);
 				it.siguiente();
-				
 			}
+		}
+		
+		public static void informar(Coleccionable c){
 			
+			double cantidad_elementos = c.cuantos();
+			
+			Console.WriteLine("Cantidad de elementos del coleecionable: {0}",cantidad_elementos);
+			
+			Comparable minimo = c.minimo();
+			
+			Console.WriteLine("El minimo es: {0}", minimo);
+			
+			Comparable maximo = c.maximo();
+			
+			Console.WriteLine("El maximo es: {0}", maximo);
+			
+			/*Console.Write("Escriba un numero: ");
+			
+			int num_elegido = int.Parse(Console.ReadLine());
+			
+			Comparable col = new Numero(num_elegido);
+			
+			if(c.contiene(col)){
+				
+				Console.WriteLine("El coleccionable leido esta en la colección");
+			}
+			else{Console.WriteLine("El coleccionable leido no esta en la colección");}*/
 			
 		}
 }

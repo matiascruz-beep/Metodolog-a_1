@@ -1,26 +1,18 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: mati1
- * Date: 15/9/2025
- * Time: 16:37
+ * Date: 25/9/2025
+ * Time: 13:47
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 
-namespace practica_2
+namespace practica3
 {
 	/// <summary>
-	/// Description of Class1.
+	/// Description of Numero.
 	/// </summary>
-	//Ejercicio 1
-	public interface Comparable
-{
-    bool sosigual(Comparable c);
-    bool sosmayor(Comparable c);
-    bool sosmenor(Comparable c);
-}
-	
 	public class Numero : Comparable
 {
     private int valor;
@@ -53,5 +45,4 @@ namespace practica_2
         return valor.ToString();
     }
 }
-
 }

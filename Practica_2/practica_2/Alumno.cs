@@ -7,7 +7,7 @@ namespace practica_2
 	
 	public interface comparoAlumno{
 		
-	int comparar(Alumno a1, Alumno a2);
+	bool comparar(Alumno a1, Alumno a2);
 	}
 	
 	public class Alumno : Comparable
@@ -37,8 +37,13 @@ namespace practica_2
 		
 		public bool sosigual(Comparable pe)
         {
-            Alumno al = (Alumno)pe;
-            return this.Legajo == al.Legajo;
+            //Alumno al = (Alumno)pe;
+            //return this.Legajo == al.Legajo;
+            if(comparador == null){
+            	throw new InvalidOperationException("No se ha asignado una estrategia de comparacion al alumno");
+            }
+            return comparador.comparar(this , (Alumno)pe);
+            
         }
 
         public bool sosmayor(Comparable pe)
@@ -61,37 +66,34 @@ namespace practica_2
 	
 	public class PorLegajo : comparoAlumno{
 		
-		public int comparar(Alumno a1, Alumno a2){
+		public bool comparar(Alumno a1, Alumno a2){
 			
-			return a1.Legajo.CompareTo(a2.Legajo);
-			
-			//devuelve -1 si a1 es menor que a2
-			//devuelve  1 si a1 es mayor que a2
-			//Devuelve 0 si son iguales
+			return a1.Legajo == a2.Legajo;
+	
 		}
 	}
 	
 	public class PorDni : comparoAlumno{
 		
-		public int comparar(Alumno a1 , Alumno a2){
+		public bool comparar(Alumno a1 , Alumno a2){
 			
-			return a1.Dni.CompareTo(a1.Dni);
+			return a1.Dni == a2.Dni;
 		}
 	}
 	
 	public class PorPromedio : comparoAlumno{
 		
-		public int comparar(Alumno a1 , Alumno a2){
+		public bool comparar(Alumno a1 , Alumno a2){
 			
-			return a1.Promedio.CompareTo(a1.Promedio);
+			return a1.Promedio == a2.Promedio;
 		}
 	}
 	
 	public class PorNombre : comparoAlumno{
 		
-		public int comparar(Alumno a1 , Alumno a2){
+		public bool comparar(Alumno a1 , Alumno a2){
 			
-			return a1.Nombre.CompareTo(a1.Nombre);
+			return a1.Nombre == a2.Nombre;
 		}
 	}
 	
