@@ -1,7 +1,13 @@
-﻿class Program
+﻿using System;
+
+namespace Practica_4
 {
-    public static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("hola");
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hola");
+        }
     }
+
 }

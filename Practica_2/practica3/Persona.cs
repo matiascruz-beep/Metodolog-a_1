@@ -16,8 +16,8 @@ namespace practica3
 	public class Persona
 	{
 
-		string Nombre{get;set;}
-		double Dni{get;set;}
+		protected string Nombre{get;set;}
+		protected double Dni{get;set;}
 		public Persona(string nom , double dn)
 		{
 			this.Nombre = nom;

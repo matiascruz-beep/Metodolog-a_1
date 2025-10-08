@@ -5,10 +5,6 @@ using System;
 namespace practica_2
 {
 	
-	public interface comparoAlumno{
-		
-	bool comparar(Alumno a1, Alumno a2);
-	}
 	
 	public class Alumno : Comparable
 	{
@@ -42,60 +38,34 @@ namespace practica_2
             if(comparador == null){
             	throw new InvalidOperationException("No se ha asignado una estrategia de comparacion al alumno");
             }
-            return comparador.comparar(this , (Alumno)pe);
+            return comparador.sosIgual(this , (Alumno)pe);
             
         }
 
         public bool sosmayor(Comparable pe)
         {
-            Alumno al = (Alumno)pe;
-            return this.Legajo > al.Legajo;
+            if (comparador == null)
+                throw new InvalidOperationException("No se ha asignado una estrategia de comparacion al alumno");
+            return comparador.sosMayor(this, (Alumno)pe);
         }
 
         public bool sosmenor(Comparable pe)
         {
-            Alumno al = (Alumno)pe;
-            return this.Legajo < al.Legajo;
+            if (comparador == null)
+                throw new InvalidOperationException("No se ha asignado una estrategia de comparacion al alumno");
+            return comparador.sosMenor(this, (Alumno)pe);
         }
-        
-         public override string ToString()
+
+        public override string ToString()
 		{
         	return string.Format("Nombre: {0}, DNI: {1}, Legajo: {2}, Promedio: {3}", Nombre, Dni, Legajo, Promedio);
 		}
 	}
 	
-	public class PorLegajo : comparoAlumno{
-		
-		public bool comparar(Alumno a1, Alumno a2){
-			
-			return a1.Legajo == a2.Legajo;
 	
-		}
-	}
 	
-	public class PorDni : comparoAlumno{
-		
-		public bool comparar(Alumno a1 , Alumno a2){
-			
-			return a1.Dni == a2.Dni;
-		}
-	}
 	
-	public class PorPromedio : comparoAlumno{
-		
-		public bool comparar(Alumno a1 , Alumno a2){
-			
-			return a1.Promedio == a2.Promedio;
-		}
-	}
 	
-	public class PorNombre : comparoAlumno{
-		
-		public bool comparar(Alumno a1 , Alumno a2){
-			
-			return a1.Nombre == a2.Nombre;
-		}
-	}
 	
 	
 	

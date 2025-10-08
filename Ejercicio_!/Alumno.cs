@@ -19,8 +19,14 @@ namespace Ejercicio__
 		
 		public override bool sosigual(Comparable pe)
         {
+			if(pe.GetType() == typeof(Numero)){
+				return false;
+			}else{
+				
+			
             Alumno al = (Alumno)pe;
             return this.Legajo == al.Legajo;
+			}
         }
 
         public override bool sosmayor(Comparable pe)

@@ -11,7 +11,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace practica_2
+namespace Practica_4
 {
 	public interface Student
 	{

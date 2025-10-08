@@ -52,12 +52,14 @@
     <Compile Include="FabricaDeAlumnos.cs" />
     <Compile Include="fabricaDeComparables.cs" />
     <Compile Include="FabricaDeNumeros.cs" />
+    <Compile Include="FabricaDeProfesores.cs" />
     <Compile Include="GeneradorDeDatosAleatorios.cs" />
     <Compile Include="Iterable.cs" />
     <Compile Include="Iterador.cs" />
     <Compile Include="IteradorListas.cs" />
     <Compile Include="lectorDeDatos.cs" />
     <Compile Include="Numero.cs" />
+    <Compile Include="Observador.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Pila.cs" />
     <Compile Include="Profesor.cs" />

@@ -2,7 +2,7 @@
 
 using System;
 
-namespace practica_2
+namespace Practica_4
 {
 	public abstract class Persona 
 	{

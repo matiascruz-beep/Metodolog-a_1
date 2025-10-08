@@ -9,7 +9,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace practica_2
+namespace Practica_4
 {
 	//Pila - LIFO (Last In, First Out)
 	public class pila : Coleccionable, Iterable

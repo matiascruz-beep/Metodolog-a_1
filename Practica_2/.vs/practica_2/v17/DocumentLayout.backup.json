@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\pornombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\pornombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\porpromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\porpromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\pordni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\pordni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\porlegajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\porlegajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|c:\\users\\mati1\\documents\\meotodologia 1\\ejercicio_!\\practica_2\\practica_2\\comparoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9950A41-14D9-41C3-99F2-F8AEDDF0EB6F}|practica_2\\practica_2.csproj|solutionrelative:practica_2\\comparoalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\Program.cs",
-              "RelativeDocumentMoniker": "practica_2\\Program.cs",
-              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\Program.cs",
-              "RelativeToolTip": "practica_2\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "comparoAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\comparoAlumno.cs",
+              "RelativeDocumentMoniker": "practica_2\\comparoAlumno.cs",
+              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\comparoAlumno.cs",
+              "RelativeToolTip": "practica_2\\comparoAlumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T16:39:13.011Z",
+              "WhenOpened": "2025-10-07T13:38:09.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PorPromedio.cs",
+              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorPromedio.cs",
+              "RelativeDocumentMoniker": "practica_2\\PorPromedio.cs",
+              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorPromedio.cs",
+              "RelativeToolTip": "practica_2\\PorPromedio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:35:40.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PorDni.cs",
+              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorDni.cs",
+              "RelativeDocumentMoniker": "practica_2\\PorDni.cs",
+              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorDni.cs",
+              "RelativeToolTip": "practica_2\\PorDni.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:35:39.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PorLegajo.cs",
+              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorLegajo.cs",
+              "RelativeDocumentMoniker": "practica_2\\PorLegajo.cs",
+              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorLegajo.cs",
+              "RelativeToolTip": "practica_2\\PorLegajo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:35:38.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PorNombre.cs",
+              "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorNombre.cs",
+              "RelativeDocumentMoniker": "practica_2\\PorNombre.cs",
+              "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\PorNombre.cs",
+              "RelativeToolTip": "practica_2\\PorNombre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:35:36.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Alumno.cs",
               "DocumentMoniker": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\Alumno.cs",
               "RelativeDocumentMoniker": "practica_2\\Alumno.cs",
               "ToolTip": "C:\\Users\\mati1\\Documents\\Meotodologia 1\\Ejercicio_!\\practica_2\\practica_2\\Alumno.cs",
               "RelativeToolTip": "practica_2\\Alumno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T16:36:38.424Z",
               "EditorCaption": ""

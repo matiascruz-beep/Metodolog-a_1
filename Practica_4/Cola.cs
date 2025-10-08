@@ -9,7 +9,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace practica_2
+namespace Practica_4
 {
 	// Enqueue(T item) → agrega un elemento al final de la cola (FIFO: primero en entrar, primero en salir).
 	// Dequeue() → quita y devuelve el primer elemento de la cola (el que estaba esperando más tiempo).

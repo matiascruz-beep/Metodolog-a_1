@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace practica_2
+namespace Practica_4
 {
 	/// <summary>
 	/// Description of Class1.

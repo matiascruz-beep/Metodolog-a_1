@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practica_4
+namespace practica_2
 {
     public interface comparoAlumno
     {

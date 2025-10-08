@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace practica_2
+namespace Practica_4
 {
     public class PorLegajo : comparoAlumno
     {

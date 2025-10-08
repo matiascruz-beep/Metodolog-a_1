@@ -13,10 +13,22 @@ namespace practica3
 	/// <summary>
 	/// Description of Observador.
 	/// </summary>
-	public class Observador
-	{
-		public Observador()
-		{
-		}
+	public interface IObservado{
+		
+		void agregarObservador(IObservador o);
+		void quitarObservador(IObservador o);
+		//void notificar(string accion);
+		void notificar();
 	}
+	
+	public interface IObservador {
+		void actualizar(IObservado o);
+	}
+	
+	/*public interface observadorDeProfesores : IObservador{
+		
+		void actualizar(string accion);
+	}*/
+	
+	
 }
