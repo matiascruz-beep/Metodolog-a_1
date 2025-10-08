@@ -37,11 +37,21 @@ namespace Practica_4
         }
         public bool lessThan(Student student)
         {
-            return a.sosmenor((Alumno)student);
+            if (student is Adaptador adaptador)
+                return a.sosmenor(adaptador.a); // compara el Alumno interno
+            else if (student is Alumno alumno)
+                return a.sosmenor(alumno);
+            else
+                throw new InvalidOperationException("Tipo no compatible para comparación");
         }
         public bool greaterThan(Student student)
         {
-            return a.sosmayor((Alumno)student);
+            if (student is Adaptador adaptador)
+                return a.sosmayor(adaptador.a);
+            else if (student is Alumno alumno)
+                return a.sosmayor(alumno);
+            else
+                throw new InvalidOperationException("Tipo no compatible para comparación");
         }
 
 
