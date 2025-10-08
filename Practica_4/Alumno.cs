@@ -74,7 +74,7 @@ namespace Practica_4
 
 		public string MostrarCalificacion()
 		{
-			return string.Format("Nombre: {0}, Calificacion: {1}", Nombre, Calificacion);
+			return string.Format("Nombre: {0}, Calificacion: {1}", this.Nombre, this.Calificacion);
 		}
 	}
 	

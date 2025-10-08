@@ -154,7 +154,8 @@ namespace Practica_4
 			// mostrar resultado
 			Console.WriteLine("Exam results");
 			students.sort();
-			iterator.beginning();
+            iterator.beginning();
+			
 			while(! iterator.end())
 			{
 				student = iterator.current();
