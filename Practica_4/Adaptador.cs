@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_4
 {
-    internal class Adaptador : Student
+    internal class Adaptador : Student, IStudent
     {
         Alumno a;
 

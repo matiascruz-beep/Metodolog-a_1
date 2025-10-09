@@ -162,9 +162,32 @@ namespace Practica_4
 				Console.WriteLine(student.showResult() + "\n");
 				iterator.next();
 			}
-		}
-		
-		private void takeAnExam(Student student){
+
+
+            int orden = 1;
+            iterator.beginning();
+
+            while (!iterator.end())
+            {
+                IStudent currentStudent = iterator.current();
+
+                // Aplicar decoradores
+                IStudent decorado = new LegajoDecorator(currentStudent, "12345/6");
+                decorado = new NotaEnLetrasDecorator(decorado);
+                decorado = new EstadoDecorator(decorado);
+                decorado = new RecuadroDecorator(decorado);
+                decorado = new OrdenDecorator(decorado, orden++);
+
+                Console.WriteLine(decorado.showResult() + "\n");
+                iterator.next();
+            }
+
+
+
+
+        }
+
+        private void takeAnExam(Student student){
 			int hit = 0;
 			for(int i = 0; i < 10; i++)
 			{
