@@ -8,5 +8,6 @@ namespace Practica_4
 {
     internal interface OrdenEnAula2
     {
+        void ejecutar(Comparable c);
     }
 }
