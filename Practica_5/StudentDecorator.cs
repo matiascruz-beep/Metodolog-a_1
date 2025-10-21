@@ -16,9 +16,6 @@ namespace Practica_4
         }
 
         public int Calificacion { get; }
-
-
-
         public virtual string showResult()
         {
             return student.showResult();

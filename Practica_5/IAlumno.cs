@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practica_4
 {
-    internal interface IStudent
+    internal interface IAlumno
     {
-        int Calificacion { get; }
-        string showResult();
+        string Nombre { get; set; }
+        int ResponderPregunta(int pregunta);
     }
 }

@@ -40,7 +40,7 @@ namespace Practica_4
             teach.teachingAClass();
 
             // MOSTRAR DECORADOS
-            Console.WriteLine("\n======= RESULTADOS DECORADOS ======= \n");
+            Console.WriteLine("\n======= RESULTADOS DECORADOS =======\n");
 
             int orden = 1;
             foreach (var student in alumnosDecorables)
@@ -54,7 +54,21 @@ namespace Practica_4
                 Console.WriteLine(decorado.showResult() + "\n");
             }
 
+            //Pruebo la funcionalidad del ejercicio 1 practica 5
+            IAlumno a1 = new ProxyAlumno("Lucía", 12345678, 101, 8.5, new PorLegajo(),false);
+            IAlumno a2 = new ProxyAlumno("Martín", 87654321, 102, 9.0, new PorLegajo(), true);
 
+            // Hasta ahora NO se crearon los alumnos reales
+            Console.WriteLine(a1.Nombre); // Muestra sin instanciar el Alumno real
+            Console.WriteLine(a2.Nombre); // idem
+
+            // En este momento se crea el alumno real
+            Console.WriteLine(a1.ResponderPregunta(3));
+            Console.WriteLine(a2.ResponderPregunta(3));
+
+
+
+            Console.ReadKey(true);
         }
 
 
