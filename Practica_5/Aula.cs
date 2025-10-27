@@ -12,7 +12,7 @@ namespace Practica_4
 
         public Aula()
         {
-
+            teacher = new Teacher();
         }
 
         public void comenzar()
@@ -22,7 +22,7 @@ namespace Practica_4
             teacher = new Teacher();
         }
 
-        public void nuevoAlumno(Alumno a)
+        public void nuevoAlumno(Student a)
         {
             teacher.goToClass((Student)a);
         }

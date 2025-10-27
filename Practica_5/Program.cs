@@ -8,39 +8,64 @@ namespace Practica_4
     {
         public static void Main(string[] args)
         {
+
+            //Creo el Aula
+            Aula aula = new Aula();
+
+            //creo la colección 
+            Pila pila = new Pila();  // Podés usar también Cola cola = new Cola();
+
+            // creo las órdenes
+            OrdenEnAula1 ordenInicio = new OrdenInicio(aula);
+            OrdenEnAula2 ordenLlegaAlumno = new OrdenLlegaAlumno(aula);
+            OrdenEnAula1 ordenAulaLlena = new OrdenAulaLlena(aula);
+
+            //seteo las órdenes en la pila
+            pila.setOrdenInicio(ordenInicio);
+            pila.setOrdenLlegaAlumno(ordenLlegaAlumno);
+            pila.setOrdenAulaLlena(ordenAulaLlena);
+            //--------------------------------------------------------------------//
+
             //Ejercicio 4
             Teacher teach = new Teacher();
             // Lista para guardar los alumnos adaptados que luego vamos a decorar
             List<IStudent> alumnosDecorables = new List<IStudent>();
             Random rnd = new Random();
 
-            for (int i=0; i<10; i++)
+
+            //Aca lleno la pila con los estudiantes (es parte del ejercicio 4 pero lo uso para llenar la pila, que es
+            //lo que me pide el ejercicio 10 de la practica 5)
+            for (int i=0; i<15; i++)
             {
                 int nota = rnd.Next(1,11);
                 Alumno a = (Alumno)crearComparable();
                 a.Calificacion = nota;
                 Adaptador adapter = new Adaptador(a);
-
+                pila.agregar(adapter);
                 alumnosDecorables.Add(adapter); // guardamos para decorar después
-
 
                 teach.goToClass(adapter);
             }
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 15; i++) {
                 int nota = rnd.Next(1, 11);
                 AlumnoMuyEstudioso a = (AlumnoMuyEstudioso)crearComparable_2();
                 a.Calificacion = nota;
                 Adaptador adapterc = new Adaptador(a);
+                pila.agregar(adapterc);
                 alumnosDecorables.Add(adapterc); // guardamos también
-
                 teach.goToClass(adapterc);
             }
+            Console.WriteLine("Carga de alumnos finalizada.");
 
-            teach.teachingAClass();
+
+            //Es parte del codigo pero lo comente para ejecutar el ejercicio 10 de la practica 5
+
+
+            //teach.teachingAClass();
 
             // MOSTRAR DECORADOS
-            Console.WriteLine("\n======= RESULTADOS DECORADOS =======\n");
+            /*Console.WriteLine("\n======= RESULTADOS DECORADOS =======\n");
 
             int orden = 1;
             foreach (var student in alumnosDecorables)
@@ -66,7 +91,7 @@ namespace Practica_4
             Console.WriteLine(a1.ResponderPregunta(3));
             Console.WriteLine(a2.ResponderPregunta(3));
 
-
+            */
 
             Console.ReadKey(true);
         }

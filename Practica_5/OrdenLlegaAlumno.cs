@@ -10,14 +10,21 @@ namespace Practica_4
     {
         Aula aula;
 
-        public OrdenLlegaAlumno()
+        public OrdenLlegaAlumno(Aula a)
         {
-            aula = new Aula();
+            aula = a;
         }
 
-        public void ejecutar(Comparable a)
+        public void ejecutar(Comparable c)
         {
-            aula.nuevoAlumno((Alumno)a);
+            if (c is Adaptador adapter)
+            {
+                aula.nuevoAlumno(adapter); // ✅ Adaptador implementa Student
+            }
+            else
+            {
+                throw new InvalidOperationException("Tipo de alumno no soportado");
+            }
         }
     }
 }

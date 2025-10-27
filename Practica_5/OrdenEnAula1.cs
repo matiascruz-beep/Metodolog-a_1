@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_4
 {
-    internal interface OrdenEnAula1
+    public interface OrdenEnAula1
     {
         void ejecutar(); 
     }
